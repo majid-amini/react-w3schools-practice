@@ -1,0 +1,24 @@
+.left_container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  .left_container .menu_container ul {
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+  }
+  .menu_container ul li {
+    padding: 0 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .menu_container ul li:hover {
+    color: lightgreen;
+  }
+  .menu_container ul li a::after {
+    content: "\25bc";
+    clear: both;
+    margin-left: 0.3rem;
+    font-size: 1rem;
+  }

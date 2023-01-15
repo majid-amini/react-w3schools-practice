@@ -1,0 +1,29 @@
+.right_container {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  .icons_container {
+    display: flex;
+  }
+  .buttons_container a {
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  .buttons_container a:hover {
+    color: lightgreen;
+    background-color: #000;
+  }
+  .icons_container svg {
+    width: 2.5rem;
+    margin: 0 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .icons_container svg :hover {
+    color: lightgreen;
+  }

@@ -1,0 +1,10 @@
+header {
+  height: 20vh;
+}
+.nav-header {
+  background-color: #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header section */

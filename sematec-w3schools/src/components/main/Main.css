@@ -1,0 +1,84 @@
+/* main section */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 20rem;
+  }
+  
+  .main_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.2rem;
+  }
+  .main_left h3 {
+    font-size: 8rem;
+    font-weight: bold;
+  }
+  .main_left h4 {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  .main_left a {
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 18rem;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  .main_left a:hover {
+    opacity: 0.7;
+  }
+  .main_left .btn-html,
+  .btn-refrence {
+    color: snow;
+  }
+  .btn-html {
+    background-color: #04aa6d;
+  }
+  .btn-tutorial {
+    background-color: #fff080;
+  }
+  .btn-refrence {
+    background-color: #2d2d2d;
+  }
+  .btn-certified {
+    background-color: pink;
+  }
+  .main_right {
+    background-color: #ccc;
+    width: 50rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .main_right h3 {
+    text-align: left;
+  }
+  .HtmlContent {
+    border-left: 0.5rem solid green;
+  }
+  .btn-try {
+    background-color: #04aa6d;
+    padding: 1rem 2rem;
+    border: none;
+    color: snow;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .btn-try:hover {
+    opacity: 0.7;
+    color: #eee;
+  }
+  
